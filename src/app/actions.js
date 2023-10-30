@@ -12,7 +12,7 @@ export const createComment = async (prevState, formValues) => {
       )}, ${formValues.get('content')}, ${JSON.stringify(new Date())});`;
     revalidatePath('/');
     return 'Success';
-  } catch (error) {
+  } catch (error) { 
     console.log({error})
     return `Failed ${JSON.stringify(error)}`
   }

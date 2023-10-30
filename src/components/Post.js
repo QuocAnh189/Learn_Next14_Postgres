@@ -20,10 +20,10 @@ export const Post = () => {
         </p>
       </div>
       <Comments
-        comments={[
-          { id: 1, name: 'Test', content: 'abcdef', createdAt: new Date() },
-          { id: 2, name: '123', content: 'abc', createdAt: new Date() },
-        ]}
+        // comments={[
+        //   { id: 1, name: 'Test', content: 'abcdef', createdAt: new Date() },
+        //   { id: 2, name: '123', content: 'abc', createdAt: new Date() },
+        // ]}
       />
       <CommentForm />
     </div>

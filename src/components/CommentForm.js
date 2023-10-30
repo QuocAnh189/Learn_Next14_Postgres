@@ -8,8 +8,6 @@ import { createComment } from '../app/actions';
 export const CommentForm = () => {
   const [state, formAction] = useFormState(createComment, '');
 
-  console.log({ formAction });
-
   return (
     <div className='p-6 bg-white rounded shadow'>
       <p className='font-bold mb-3'>Add New Comment</p>
